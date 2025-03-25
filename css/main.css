@@ -21,3 +21,7 @@
   letter-spacing: 3px;
 }
 
+.heads:hover{
+  color: rgba(0, 1, 10, 0.548);
+  transition: 0.3s;
+}
