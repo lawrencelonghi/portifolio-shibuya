@@ -1,0 +1,23 @@
+.main-content{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.detail1{
+  display: block;
+  width: 750px;
+}
+.detail2{
+  display: block;
+  width: 540px;
+}
+
+.heads{
+  font-family: 'michroma';
+  font-weight: 100; 
+  font-size: 4.5rem;
+  /* font-style: italic; */
+  letter-spacing: 3px;
+}
+

@@ -1,0 +1,71 @@
+@import url(header.css);
+@import url(footer.css);
+
+.contatos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 74vh;
+  gap: 200px;
+}
+
+.icon{
+  width: 85px; /* Fixed width (match image size) */
+  height: 85px; /* Fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon img{
+  width: 100%; /* Image fills container */
+  height: 100%;
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.icon:hover img{
+  transform: scale(1.1);
+}
+
+.detail1::before{
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(128, 128, 128, 0.2);
+  width: 1px;
+  height: 400px;
+  left: -434px;
+}
+
+.detail2::before{
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(128, 128, 128, 0.2);
+  width: 1px;
+  height: 400px;
+  right: -434px;
+}
+
+
+
+
+/* .insta{
+  width: 85px;
+  height: 85px;
+}
+
+.wpp{
+  width: 85px;
+  height: 85px;
+} */
+
+/* .insta:hover{
+  width: 95px;
+  height: 95px;
+}
+
+.wpp:hover{
+  width: 95px;
+  height: 95px;
+} */
