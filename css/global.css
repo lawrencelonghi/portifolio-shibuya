@@ -3,14 +3,11 @@
   color: rgb(255, 255, 228);
   font-family: Arial, Helvetica, sans-serif;
   /* max-width: 1440px; */
-  max-height: 100vh;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
  }
 
  .container {
-  margin-inline: 4rem;
-  margin-block: 2rem;
+  margin-inline: 3rem;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
   } 
 
