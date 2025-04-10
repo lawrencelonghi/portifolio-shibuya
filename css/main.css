@@ -1,7 +1,7 @@
 .main-content{
  display: flex;
  flex-direction: column;
- gap: 65px;
+ gap: 72px;
 }
 
 .detail1{
@@ -14,7 +14,6 @@
 
 .heads{
   font-family: 'michroma';
-  
   font-size: 3.8rem;
   flex-wrap: wrap;
   letter-spacing: 3px;
@@ -24,41 +23,54 @@
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
+  padding-inline: 30px;
 }
 
 .direcao-video{
   position: relative;
+  text-align: center;
 }
 
 .direcao-video::before{
   content: '';
   display: block;
   position: absolute;
-  background: rgba(255, 255, 255, 0.521);
-  width: 692px;
-  height: 2px;
+  background: white;
+  width: 1270px;
+  height: 1px;
   left: 0px;
   bottom: -44px
 } 
 
 .cenografia{
   position: relative;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.asterisco{
+  color: rgba(0, 216, 97, 0.925);
+  -webkit-text-stroke: 0;
 }
 
 .cenografia::before{
     content: '';
     display: block;
     position: absolute;
-    background: rgba(255, 255, 255, 0.521);
-    width: 1163px;
-    height: 2px;
+    background: white;
+    width: 1270px;
+    height: 1px;
     left: 0px;
     bottom: -44px
   }
 
-.heads:hover{
-  color: rgba(39, 238, 39, 0.205);
-  transition: 0.4s;
+  .mobile{
+    text-align: center;
+  }
+
+a:hover{
+  color: rgb(0, 110, 42);
+  transition: 0.4s;;
 } 
 
 
