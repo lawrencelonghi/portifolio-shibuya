@@ -1,3 +1,4 @@
+//intro
 let intro = document.querySelector('.intro')
 let logo = document.querySelector('.logo-header')
 let logoSpan = document.querySelectorAll('.logo')
@@ -25,3 +26,32 @@ window.addEventListener('DOMContentLoaded', () =>{
     }, 2300)
   })
 })
+
+//popup video
+document.querySelectorAll('.video-container video').forEach(vid =>{
+  vid.onclick = () =>{
+    document.querySelector('.popup-video').style.display = 'block'
+    document.querySelector('.popup-video video').src = vid.getAttribute('src')
+  }
+});
+document.querySelector('.popup-video span').onclick = () =>{
+  document.querySelector('.popup-video').style.display = 'none'
+}
+
+// //test popup 2
+// const staticVideo = document.querySelectorAll('.video-container video')
+// const popupVideo = document.querySelectorAll('.popup-video')
+// console.log(popupVideo);
+
+
+// function handlePopup(){
+//  popupVideo.forEach((popupvid) =>{
+//   popupvid.classList.add('active')
+//  })
+// }
+
+// staticVideo.forEach((vid) =>{
+//   vid.addEventListener('click',handlePopup)
+// })
+
+// handlePopup()
